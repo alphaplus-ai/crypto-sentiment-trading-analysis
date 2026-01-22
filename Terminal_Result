@@ -1,11 +1,4 @@
-Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
-
-  sns.barplot(x=pnl_stats.index, y=pnl_stats.values, palette='RdYlGn')
-
-Success! Results printed and chart saved as 'trading_analysis_final.png'.
-(.venv) aryangupta@Aryans-MacBook-Air PyCharmMiscProject % clear
-(.venv) aryangupta@Aryans-MacBook-Air PyCharmMiscProject % python -u "/Users/aryangupta/PyCharmMiscProject
-/sentiment.py"
+aryangupta@Aryans-MacBook-Air PyCharmMiscProject % python -u "/Users/aryangupta/PyCharmMiscProject/sentiment.py"
 Columns found in Trader Data: ['account', 'coin', 'execution price', 'size tokens', 'size usd', 'side', 'timestamp ist', 'start position', 'direction', 'closed pnl', 'transaction hash', 'order id', 'crossed', 'fee', 'trade id', 'timestamp']
 
 --- PERFORMANCE SUMMARY ---
