@@ -1,0 +1,34 @@
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=pnl_stats.index, y=pnl_stats.values, palette='RdYlGn')
+
+Success! Results printed and chart saved as 'trading_analysis_final.png'.
+(.venv) aryangupta@Aryans-MacBook-Air PyCharmMiscProject % clear
+(.venv) aryangupta@Aryans-MacBook-Air PyCharmMiscProject % python -u "/Users/aryangupta/PyCharmMiscProject
+/sentiment.py"
+Columns found in Trader Data: ['account', 'coin', 'execution price', 'size tokens', 'size usd', 'side', 'timestamp ist', 'start position', 'direction', 'closed pnl', 'transaction hash', 'order id', 'crossed', 'fee', 'trade id', 'timestamp']
+
+--- PERFORMANCE SUMMARY ---
+classification
+extreme fear     34.537862
+fear             54.290400
+neutral          34.307718
+greed            42.743559
+extreme greed    67.892861
+Name: closed pnl, dtype: float64
+
+--- POSITIONING (LONG/SHORT %) ---
+side                  BUY       SELL
+classification                      
+extreme fear    51.098131  48.901869
+fear            48.951275  51.048725
+neutral         50.334342  49.665658
+greed           48.855933  51.144067
+extreme greed   44.858972  55.141028
+/Users/aryangupta/PyCharmMiscProject/sentiment.py:59: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=pnl_stats.index, y=pnl_stats.values, palette='RdYlGn')
+
+Success! Results printed and chart saved as 'trading_analysis_final.png'.
